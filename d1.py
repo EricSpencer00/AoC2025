@@ -3,7 +3,7 @@ import sys
 
 # Read input from `d1_input.txt` by default, or from a file path passed as
 # the first command-line argument.
-input_path = Path('d1_input.txt')
+input_path = Path('inputs/d1_input.txt')
 if len(sys.argv) > 1:
     input_path = Path(sys.argv[1])
 try:
